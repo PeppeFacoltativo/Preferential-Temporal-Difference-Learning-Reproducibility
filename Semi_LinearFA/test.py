@@ -80,7 +80,7 @@ class test():
   			c_f = torch.from_numpy(t_data).float().to(self.device)
   			with torch.no_grad():
   				c_f, _ = feat_net(c_f.view(1,1,self.env.n,self.env.n))
-  			c_f = c_f.numpy().reshape(-1,1)
+  			c_f = c_f.cpu().numpy().reshape(-1,1)
   			v_pred.append(val_net.forward(c_f).item())
 
 		v_pi_m = self.v_pi * v_pi_mask

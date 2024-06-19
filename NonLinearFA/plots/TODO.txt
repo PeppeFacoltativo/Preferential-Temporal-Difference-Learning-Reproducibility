@@ -1,0 +1,9 @@
+Genera dati 16 hidden layers (online e offilne, x8 e x16) -> 16 nuovi files
+Grid size 16 offline (eventualmente)
+
+Capitoli
+3) methodology tutto
+4.2) results beyond paper
+	Modifica preferences a caso e vedi se si spacca tutto
+
+

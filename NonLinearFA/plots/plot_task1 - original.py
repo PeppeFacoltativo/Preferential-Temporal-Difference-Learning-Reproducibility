@@ -7,9 +7,9 @@ from matplotlib import colors
 import matplotlib.backends.backend_pdf
 from scipy.integrate import trapz
 
-hunits = [1, 2, 4, 8]
-opt_comb = {"gated":{8:0.01, 12:0.01}, "accumulating":{8:0.005, 12:0.001},\
-            "etd":{8:0.05, 12:0.01}, "etd_adaptive":{8:0.001, 12:0.001}}
+hunits = [1, 2, 4, 8, 16]
+opt_comb = {"gated":{8:0.01, 12:0.01, 16:0.01}, "accumulating":{8:0.005, 12:0.001, 16:0.001},\
+            "etd":{8:0.05, 12:0.01, 16:0.01}, "etd_adaptive":{8:0.001, 12:0.001, 16:0.001}}
 colors = {"etd": "magenta", "etd_adaptive": "blue",\
           "accumulating": "green", "gated": "red"}
 markers = {"etd": "*", "etd_adaptive":"D",\
@@ -19,8 +19,8 @@ name = {"etd": "ETD fixed", "etd_adaptive":"ETD variable",\
 intrst={"etd": 0.01, "etd_adaptive": 0.5}
 
 env = "gridWorld"
-t_seeds = 20
-episodes = 150
+t_seeds = 50
+episodes = 250
 
 z_star = 1.96
 fig, ax = plt.subplots(1, 3, figsize=(18,6))

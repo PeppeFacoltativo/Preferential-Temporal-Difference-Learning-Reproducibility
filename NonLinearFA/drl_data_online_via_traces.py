@@ -69,6 +69,7 @@ for seed in range(total_seeds):
 
 	fname_data = "drl_env_"+str(args.env)+"_size_"+str(args.n)+"_seed_"+str(seed)+"_epi_250"
 	with open("data/"+fname_data+"_data.pkl", "rb") as f:
+		print(f)
 		data_list = pickle.load(f)
 	optimizer = optim.SGD(val_net.parameters(), lr=args.lr)
 	train_cls = trainer(args, data_list, val_net, optimizer, device)

@@ -1,0 +1,10 @@
+Hello everyone, 
+my name is Simone Gabrielli, I am a PhD student in Systems and Control. I was born in Città di Castello in 1999 and I have lived in Milano for 6 years, since 2018.
+I studied a lot of computer science since high school, where I graduated in 2018 up until the Master Degree some months ago here in Polimi.
+Regarding my hobbies you could say I am a football fan (I support Juventus) but I also used to play a bit of tennis.
+
+As I said I was born in Città di Castello, an Etrurian village in the middle of Italy among the Appennines. We can boast beautiful countryside landscapes and a lot of amazing characteristic small villages perched on the top of the hills, besides the only other two reasons why Umbria is known, which are chocolate and boars, that we have to thank because Umbrian norcineria is so popular.
+
+I mainly work on 3 projects: with HMDrive (where i did my master thesis) which consists in indoor localization, in particular inside a car cockpit, with the purpose of realizing Augmented Reality applications for AR glasses. Then we have PoliMove (we recently went to Abu Dhabi, spun the car in turn 6 and came back), where I mainly focus in localization, but this time outdoor. The third project is mainly focused on control and consists in the realization of a control technique for an unmanned surface vessel, which is a boat.
+
+So, this is me, I hope I did not bore you too much. Thank you for your attention.

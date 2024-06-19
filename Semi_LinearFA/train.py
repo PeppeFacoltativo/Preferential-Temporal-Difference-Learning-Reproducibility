@@ -69,8 +69,8 @@ class trainer():
 						c_f, _ = self.val_net(c_f.view(1,1,self.args.n,self.args.n))
 						n_f, _ = self.val_net(n_f.view(1,1,self.args.n,self.args.n))
 					
-					c_f = c_f.numpy().reshape(-1,1)
-					n_f = n_f.numpy().reshape(-1,1)
+					c_f = c_f.cpu().numpy().reshape(-1,1)
+					n_f = n_f.cpu().numpy().reshape(-1,1)
 					c_val = self.linearNet.forward(c_f)
 					n_val = self.linearNet.forward(n_f)
 
